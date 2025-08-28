@@ -34,7 +34,7 @@ export default function HeroSection() {
             {/* Main Heading */}
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-                <span className="block">Sheena</span>
+                <span className="block shimmer-text">Sheena</span>
                 <span className="block text-gradient">Manchanda</span>
               </h1>
               <p className="text-xl lg:text-2xl text-primary-200 font-medium">
