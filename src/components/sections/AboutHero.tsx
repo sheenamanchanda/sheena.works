@@ -21,8 +21,8 @@ const highlights = [
   },
   {
     icon: Users,
-    title: '200+ Projects',
-    description: 'Successful client deliveries',
+    title: 'Multi-Industry',
+    description: 'Diverse client portfolio',
     color: 'text-purple-600 bg-purple-50'
   }
 ]
@@ -64,47 +64,12 @@ export default function AboutHero() {
               </h1>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                An Enrolled Advocate with a passion for making legal knowledge accessible, 
-                combining traditional legal expertise with modern digital communication skills.
+                Enrolled Advocate specializing in legal services, content writing, and translation — 
+                making complex legal concepts accessible through clear communication.
               </p>
-
-              <div className="prose prose-lg text-gray-600">
-                <p>
-                  With over 5 years of experience in the legal and content industries, I specialize in 
-                  providing comprehensive professional services that bridge the gap between complex legal 
-                  concepts and clear, actionable communication.
-                </p>
-                <p>
-                  My practice focuses on making legal services accessible to startups, SMBs, and individuals 
-                  while maintaining the highest standards of professional ethics and client confidentiality.
-                </p>
-              </div>
             </div>
 
-            {/* Core Values */}
-            <div>
-              <h3 className="text-lg font-semibold text-legal-dark mb-4">Core Values & Principles</h3>
-              <div className="grid grid-cols-2 gap-3">
-                {coreValues.map((value) => (
-                  <div key={value} className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-primary-600 rounded-full flex-shrink-0"></div>
-                    <span className="text-sm text-gray-700">{value}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
 
-            {/* Professional Philosophy */}
-            <div className="bg-legal-dark text-white rounded-lg p-6">
-              <h3 className="text-lg font-semibold mb-3">Professional Philosophy</h3>
-              <blockquote className="text-gray-300 italic">
-                "Legal expertise should be accessible, ethical, and effective. Every client deserves 
-                clear communication, timely delivery, and services that truly serve their best interests."
-              </blockquote>
-              <div className="mt-3 text-right">
-                <span className="text-primary-300">— Sheena Manchanda</span>
-              </div>
-            </div>
           </div>
 
           {/* Highlights */}

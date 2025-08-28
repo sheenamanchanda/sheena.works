@@ -46,8 +46,7 @@ export default function Footer() {
             </div>
             
             <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-              Professional legal services, content writing, and multilingual expertise. 
-              Specializing in cyber law, contract drafting, and academic support.
+              Legal services, content writing, and translation expertise.
             </p>
             
             <div className="space-y-2 text-sm text-gray-400">

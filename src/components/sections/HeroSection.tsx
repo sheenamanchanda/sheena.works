@@ -5,27 +5,6 @@ import Button from '@/components/ui/Button'
 export default function HeroSection() {
   return (
     <section className="hero-gradient min-h-screen flex items-center relative overflow-hidden">
-      {/* Floating Legal Icons */}
-      <div className="absolute inset-0 opacity-40">
-        <div className="absolute top-20 left-10 floating-icon floating-icon-1">
-          <Scale className="w-24 h-24 text-blue-600" />
-        </div>
-        <div className="absolute top-40 right-20 floating-icon floating-icon-2">
-          <Gavel className="w-20 h-20 text-sky-600" />
-        </div>
-        <div className="absolute bottom-32 left-1/4 floating-icon floating-icon-3">
-          <Building className="w-18 h-18 text-blue-500" />
-        </div>
-        <div className="absolute bottom-20 right-1/3 floating-icon floating-icon-4">
-          <ScrollText className="w-16 h-16 text-sky-500" />
-        </div>
-        <div className="absolute top-1/2 left-1/5 floating-icon floating-icon-5">
-          <BookOpen className="w-14 h-14 text-blue-400" />
-        </div>
-        <div className="absolute top-3/4 right-1/4 floating-icon floating-icon-1">
-          <Users className="w-12 h-12 text-sky-400" />
-        </div>
-      </div>
 
       <div className="section-container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

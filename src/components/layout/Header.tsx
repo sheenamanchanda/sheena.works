@@ -54,8 +54,8 @@ export default function Header() {
               <Scale className="w-4 h-4 text-white" />
             </div>
             <div className="hidden sm:block">
-              <div className="font-bold text-lg text-legal-dark">Sheena Manchanda</div>
-              <div className="text-xs text-gray-600">Enrolled Advocate</div>
+              <div className="font-bold text-lg text-white">Sheena Manchanda</div>
+              <div className="text-xs text-gray-300">Enrolled Advocate</div>
             </div>
           </Link>
 
@@ -65,7 +65,7 @@ export default function Header() {
               <div key={item.name} className="relative group">
                 <Link
                   href={item.href}
-                  className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                  className="text-gray-200 hover:text-primary-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
                 >
                   {item.name}
                 </Link>
@@ -101,7 +101,7 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-md text-gray-700 hover:text-primary-600 hover:bg-gray-100 transition-colors duration-200"
+            className="md:hidden p-2 rounded-md text-gray-200 hover:text-primary-300 hover:bg-gray-800 transition-colors duration-200"
           >
             {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>

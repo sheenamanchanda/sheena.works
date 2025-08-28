@@ -18,7 +18,7 @@ export default function AboutPage() {
     <Layout>
       <AboutHero />
       <ProfessionalJourney />
-      <Education />
+{/* <Education /> */}
       <SkillsMatrix />
       <ValuesSection />
       <CTASection />
