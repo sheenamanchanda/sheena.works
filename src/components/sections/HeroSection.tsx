@@ -1,23 +1,29 @@
 import Link from 'next/link'
-import { ArrowRight, Scale, FileText, Globe, GraduationCap, Shield, Award } from 'lucide-react'
+import { ArrowRight, Scale, FileText, Globe, GraduationCap, Shield, Award, Gavel, BookOpen, Building, ScrollText, Users } from 'lucide-react'
 import Button from '@/components/ui/Button'
 
 export default function HeroSection() {
   return (
     <section className="hero-gradient min-h-screen flex items-center relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-10 rotate-12">
-          <Scale className="w-24 h-24 text-legal-dark" />
+      {/* Floating Legal Icons */}
+      <div className="absolute inset-0 opacity-40">
+        <div className="absolute top-20 left-10 floating-icon floating-icon-1">
+          <Scale className="w-24 h-24 text-blue-600" />
         </div>
-        <div className="absolute top-40 right-20 -rotate-12">
-          <FileText className="w-20 h-20 text-primary-600" />
+        <div className="absolute top-40 right-20 floating-icon floating-icon-2">
+          <Gavel className="w-20 h-20 text-sky-600" />
         </div>
-        <div className="absolute bottom-32 left-1/4 rotate-45">
-          <Globe className="w-16 h-16 text-secondary-600" />
+        <div className="absolute bottom-32 left-1/4 floating-icon floating-icon-3">
+          <Building className="w-18 h-18 text-blue-500" />
         </div>
-        <div className="absolute bottom-20 right-1/3 -rotate-12">
-          <GraduationCap className="w-18 h-18 text-legal-gold" />
+        <div className="absolute bottom-20 right-1/3 floating-icon floating-icon-4">
+          <ScrollText className="w-16 h-16 text-sky-500" />
+        </div>
+        <div className="absolute top-1/2 left-1/5 floating-icon floating-icon-5">
+          <BookOpen className="w-14 h-14 text-blue-400" />
+        </div>
+        <div className="absolute top-3/4 right-1/4 floating-icon floating-icon-1">
+          <Users className="w-12 h-12 text-sky-400" />
         </div>
       </div>
 
@@ -26,21 +32,21 @@ export default function HeroSection() {
           {/* Content */}
           <div className="space-y-8">
             {/* Badge */}
-            <div className="inline-flex items-center space-x-2 glass-card px-4 py-2 rounded-full">
-              <Shield className="w-4 h-4 text-accent-300" />
-              <span className="text-sm font-medium text-white">Enrolled Advocate • Bar Council of India</span>
+            <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-blue-200">
+              <Shield className="w-4 h-4 text-blue-600" />
+              <span className="text-sm font-medium text-blue-800">Enrolled Advocate • Bar Council of India</span>
             </div>
 
             {/* Main Heading */}
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-                <span className="block shimmer-text">Sheena</span>
-                <span className="block text-gradient">Manchanda</span>
+              <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 leading-tight">
+                <span className="block">Sheena</span>
+                <span className="block bg-gradient-to-r from-blue-600 to-sky-500 bg-clip-text text-transparent">Manchanda</span>
               </h1>
-              <p className="text-xl lg:text-2xl text-primary-200 font-medium">
+              <p className="text-xl lg:text-2xl text-blue-700 font-medium">
                 Enrolled Advocate & Paralegal
               </p>
-              <p className="text-lg text-secondary-300 max-w-xl leading-relaxed">
+              <p className="text-lg text-gray-700 max-w-xl leading-relaxed">
                 Clear Legal Research, Contracts, and Crisp Writing — 
                 Professional services bridging law, language, and digital expertise.
               </p>
