@@ -20,7 +20,7 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: linear-gradient(-45deg, #1e1b4b, #1e3a8a, #3730a3, #0c4a6e, #075985, #0369a1, #1e40af, #1e3a8a);
+    background: linear-gradient(-45deg, #0f172a, #1e293b, #334155, #475569, #64748b, #475569, #334155, #1e293b);
     background-size: 400% 400%;
     animation: aurora 15s ease infinite;
   }
@@ -52,7 +52,7 @@
   }
   
   .hero-gradient {
-    background: linear-gradient(135deg, #172554 0%, #1e3a8a 25%, #1e40af 50%, #0f172a 100%);
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 25%, #334155 50%, #0f172a 100%);
   }
   
   .glass-card {
@@ -75,7 +75,7 @@
   .aurora-orb-1 {
     width: 300px;
     height: 300px;
-    background: radial-gradient(circle, rgba(59, 130, 246, 0.8) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(148, 163, 184, 0.15) 0%, transparent 70%);
     top: 10%;
     left: 10%;
     animation-delay: 0s;
@@ -84,7 +84,7 @@
   .aurora-orb-2 {
     width: 200px;
     height: 200px;
-    background: radial-gradient(circle, rgba(99, 102, 241, 0.6) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(203, 213, 225, 0.12) 0%, transparent 70%);
     top: 50%;
     right: 20%;
     animation-delay: 2s;
@@ -93,7 +93,7 @@
   .aurora-orb-3 {
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(6, 182, 212, 0.5) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(100, 116, 139, 0.1) 0%, transparent 70%);
     bottom: 20%;
     left: 30%;
     animation-delay: 4s;
@@ -171,10 +171,10 @@
 
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 0 20px rgba(148, 163, 184, 0.1);
   }
   50% {
-    box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
+    box-shadow: 0 0 30px rgba(148, 163, 184, 0.2);
   }
 }
 
