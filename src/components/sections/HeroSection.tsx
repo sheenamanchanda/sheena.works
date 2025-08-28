@@ -26,21 +26,21 @@ export default function HeroSection() {
           {/* Content */}
           <div className="space-y-8">
             {/* Badge */}
-            <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-primary-200">
-              <Shield className="w-4 h-4 text-primary-600" />
-              <span className="text-sm font-medium text-primary-700">Enrolled Advocate • Bar Council of India</span>
+            <div className="inline-flex items-center space-x-2 glass-card px-4 py-2 rounded-full">
+              <Shield className="w-4 h-4 text-accent-300" />
+              <span className="text-sm font-medium text-white">Enrolled Advocate • Bar Council of India</span>
             </div>
 
             {/* Main Heading */}
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-6xl font-bold text-legal-dark leading-tight">
+              <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
                 <span className="block">Sheena</span>
-                <span className="block text-primary-600">Manchanda</span>
+                <span className="block text-gradient">Manchanda</span>
               </h1>
-              <p className="text-xl lg:text-2xl text-gray-700 font-medium">
+              <p className="text-xl lg:text-2xl text-primary-200 font-medium">
                 Enrolled Advocate & Paralegal
               </p>
-              <p className="text-lg text-gray-600 max-w-xl leading-relaxed">
+              <p className="text-lg text-secondary-300 max-w-xl leading-relaxed">
                 Clear Legal Research, Contracts, and Crisp Writing — 
                 Professional services bridging law, language, and digital expertise.
               </p>
