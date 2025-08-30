@@ -13,7 +13,7 @@ const credentials = [
     title: 'Legal Education',
     description: 'Law degree with specialization in Cyber Law',
     icon: BookOpen,
-    details: ['LLB with honors', 'Cyber law certification', 'Contract law specialization'],
+    details: ['LLB with honors', 'PG Diploma in Cyber Law - India Law Institute', 'Contract law specialization'],
     color: 'text-secondary-600 bg-secondary-50'
   },
   {

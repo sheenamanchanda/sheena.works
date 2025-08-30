@@ -78,44 +78,40 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Professional Illustration/Stats */}
+          {/* Core Values */}
           <div className="hidden lg:block space-y-6">
             <div className="grid grid-cols-2 gap-6">
-              {/* Stat Cards */}
+              {/* Value Cards */}
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
-                <div className="flex items-center space-x-3 mb-2">
-                  <Scale className="w-5 h-5 text-primary-600" />
-                  <span className="text-sm font-medium text-gray-700">Legal Services</span>
+                <div className="flex items-center space-x-3 mb-3">
+                  <Shield className="w-6 h-6 text-primary-600" />
+                  <span className="text-lg font-semibold text-gray-800">Integrity</span>
                 </div>
-                <div className="text-2xl font-bold text-legal-dark">150+</div>
-                <div className="text-sm text-gray-600">Cases & Contracts</div>
+                <div className="text-sm text-gray-600">Upholding the highest ethical standards in all professional dealings</div>
               </div>
 
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
-                <div className="flex items-center space-x-3 mb-2">
-                  <FileText className="w-5 h-5 text-secondary-600" />
-                  <span className="text-sm font-medium text-gray-700">Content Writing</span>
+                <div className="flex items-center space-x-3 mb-3">
+                  <Award className="w-6 h-6 text-secondary-600" />
+                  <span className="text-lg font-semibold text-gray-800">Excellence</span>
                 </div>
-                <div className="text-2xl font-bold text-legal-dark">500+</div>
-                <div className="text-sm text-gray-600">Articles & Documents</div>
+                <div className="text-sm text-gray-600">Delivering precision and quality in every legal document and service</div>
               </div>
 
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
-                <div className="flex items-center space-x-3 mb-2">
-                  <Globe className="w-5 h-5 text-legal-gold" />
-                  <span className="text-sm font-medium text-gray-700">Translation</span>
+                <div className="flex items-center space-x-3 mb-3">
+                  <Users className="w-6 h-6 text-legal-gold" />
+                  <span className="text-lg font-semibold text-gray-800">Client-Focused</span>
                 </div>
-                <div className="text-2xl font-bold text-legal-dark">2</div>
-                <div className="text-sm text-gray-600">Languages (EN/HI)</div>
+                <div className="text-sm text-gray-600">Understanding unique needs to provide personalized solutions</div>
               </div>
 
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
-                <div className="flex items-center space-x-3 mb-2">
-                  <GraduationCap className="w-5 h-5 text-primary-600" />
-                  <span className="text-sm font-medium text-gray-700">Teaching</span>
+                <div className="flex items-center space-x-3 mb-3">
+                  <BookOpen className="w-6 h-6 text-primary-600" />
+                  <span className="text-lg font-semibold text-gray-800">Expertise</span>
                 </div>
-                <div className="text-2xl font-bold text-legal-dark">100+</div>
-                <div className="text-sm text-gray-600">Students Mentored</div>
+                <div className="text-sm text-gray-600">Continuous learning and staying current with legal developments</div>
               </div>
             </div>
           </div>
