@@ -3,76 +3,76 @@ import Card, { CardHeader, CardTitle, CardContent } from '@/components/ui/Card'
 
 const journeyMilestones = [
   {
-    year: '2018-2019',
-    title: 'Legal Education & Bar Admission',
-    organization: 'Law College & Bar Council of India',
-    location: 'Delhi NCR',
-    description: 'Completed LLB with specialization in Cyber Law. Successfully enrolled with Bar Council of India.',
+    year: '2012-2015',
+    title: 'Marketing & Advertising Education',
+    organization: 'Delhi University',
+    location: 'Delhi',
+    description: 'Completed B.A. in Marketing and Advertising, gaining foundational knowledge in communication and business strategy.',
     achievements: [
-      'LLB degree with honors',
-      'Cyber Law specialization certification',
-      'Bar Council enrollment',
-      'Legal research internships'
+      'B.A. Marketing & Advertising (61.87%)',
+      'Business communication skills',
+      'Marketing strategy understanding',
+      'Creative content development'
     ],
     icon: Award,
     color: 'bg-primary-50 text-primary-600'
   },
   {
-    year: '2019-2021',
-    title: 'Legal Practice & Research',
-    organization: 'Independent Practice & Legal Research',
-    location: 'Delhi NCR',
-    description: 'Began independent legal practice focusing on contract law, cyber regulations, and legal research services.',
+    year: '2015-2018',
+    title: 'Legal Education',
+    organization: 'Amity University',
+    location: 'Noida',
+    description: 'Pursued LLB degree focusing on various areas of law including contract law and cyber law.',
     achievements: [
-      '50+ legal research projects',
-      'Contract drafting expertise',
-      'Cyber law consultation services',
-      'SMB legal advisory'
+      'LLB degree (6.78 CGPA)',
+      'Contract law specialization',
+      'Legal research skills',
+      'Academic excellence'
     ],
     icon: Building,
     color: 'bg-secondary-50 text-secondary-600'
   },
   {
-    year: '2021-2022',
-    title: 'Content & Translation Services',
-    organization: 'Freelance & Agency Partnerships',
-    location: 'Remote & Delhi NCR',
-    description: 'Expanded into content writing and English-Hindi translation, leveraging bilingual expertise.',
+    year: '2016-2017',
+    title: 'Legal Internships',
+    organization: 'Chibber & Associates, Diwan Advocates',
+    location: 'Delhi',
+    description: 'Gained practical legal experience through internships at prominent Delhi law firms.',
     achievements: [
-      '200+ translation projects',
-      'Academic writing specialization',
-      'Publishing industry partnerships',
-      'Content strategy development'
+      'Legal research projects',
+      'Client counseling experience',
+      'Court proceedings exposure',
+      'Document drafting skills'
     ],
     icon: Users,
     color: 'bg-green-50 text-green-600'
   },
   {
-    year: '2022-2024',
-    title: 'Digital Services & Teaching',
-    organization: 'Multi-disciplinary Practice',
-    location: 'Delhi NCR & Online',
-    description: 'Integrated digital services and professional tutoring, creating a comprehensive service portfolio.',
+    year: '2018-2019',
+    title: 'Cyber Law Specialization',
+    organization: 'Indian Law Institute',
+    location: 'Delhi',
+    description: 'Completed PG Diploma in Cyber Law to specialize in emerging digital legal challenges.',
     achievements: [
-      '100+ students mentored',
-      'Social media strategy expertise',
-      'Voice-over service launch',
-      'Digital content specialization'
+      'PG Diploma in Cyber Law',
+      'IT regulations expertise',
+      'Data protection law knowledge',
+      'Digital crime understanding'
     ],
     icon: TrendingUp,
     color: 'bg-purple-50 text-purple-600'
   },
   {
-    year: '2024-Present',
-    title: 'Integrated Professional Services',
-    organization: 'Sheena.Works',
-    location: 'Delhi NCR & Global Remote',
-    description: 'Launched comprehensive professional services platform combining legal, content, digital, and educational expertise.',
+    year: '2018-Present',
+    title: 'Bar Enrollment & Practice',
+    organization: 'Bar Council of India',
+    location: 'Delhi',
+    description: 'Enrolled as advocate and began legal practice, including recent paralegal work combining all acquired skills.',
     achievements: [
-      'Multi-service platform launch',
-      '300+ successful projects',
-      'International client base',
-      'Professional website launch'
+      'Bar Council enrollment (2018)',
+      'Legal research expertise',
+      'Contract drafting proficiency',
+      'Paralegal experience (2024)'
     ],
     icon: Award,
     color: 'bg-legal-gold bg-opacity-20 text-yellow-700'
@@ -80,10 +80,10 @@ const journeyMilestones = [
 ]
 
 const keyMilestones = [
-  { metric: '300+', label: 'Projects Completed', description: 'Across all service categories' },
-  { metric: '50+', label: 'Regular Clients', description: 'Recurring project partnerships' },
-  { metric: '98%', label: 'Client Satisfaction', description: 'Based on project feedback' },
-  { metric: '15+', label: 'Service Offerings', description: 'Comprehensive professional solutions' }
+  { metric: '2018', label: 'Bar Enrollment', description: 'Licensed to practice law' },
+  { metric: '6.78', label: 'LLB CGPA', description: 'Academic excellence' },
+  { metric: '3', label: 'Degrees & Diplomas', description: 'Comprehensive education' },
+  { metric: '2024', label: 'Recent Experience', description: 'Paralegal expertise' }
 ]
 
 export default function ProfessionalJourney() {
@@ -96,8 +96,8 @@ export default function ProfessionalJourney() {
             Professional Journey
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            From legal education to multi-disciplinary professional services, 
-            a journey of continuous learning and service excellence.
+            From marketing education to legal practice, combining diverse skills 
+            to offer unique professional services.
           </p>
         </div>
 
@@ -192,19 +192,19 @@ export default function ProfessionalJourney() {
               <ul className="space-y-3 text-sm">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Expanding cyber law consultation services for startups and SMBs</span>
+                  <span>Building legal research and analysis expertise</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-secondary-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Developing comprehensive legal template libraries</span>
+                  <span>Developing contract drafting and review capabilities</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Building multilingual content strategy expertise</span>
+                  <span>Expanding legal content writing services</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Creating professional development and mentoring programs</span>
+                  <span>Offering online legal consultation services</span>
                 </li>
               </ul>
             </div>

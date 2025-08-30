@@ -26,20 +26,20 @@ export default function HeroSection() {
                 Enrolled Advocate & Paralegal
               </p>
               <p className="text-lg text-gray-700 max-w-xl leading-relaxed">
-                Clear Legal Research, Contracts, and Crisp Writing — 
-                Professional services bridging law, language, and digital expertise.
+                Combining legal expertise with marketing insights to deliver comprehensive 
+                legal research, contract drafting, and content writing services.
               </p>
             </div>
 
             {/* Key Services Tags */}
             <div className="flex flex-wrap gap-3">
               {[
-                'Legal Research',
-                'Contract Drafting',
+                'Legal Research & Analysis',
+                'Contract Drafting & Review',
+                'Legal Content Writing',
                 'Cyber Law',
-                'Translation',
-                'Content Writing',
-                'Academic Support'
+                'Online Consultations',
+                'Document Review'
               ].map((service) => (
                 <span
                   key={service}
@@ -69,11 +69,11 @@ export default function HeroSection() {
             <div className="flex items-center space-x-8 text-sm text-gray-600">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                <span>Available for projects</span>
+                <span>Available for consultations</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Award className="w-4 h-4 text-legal-gold" />
-                <span>5+ years experience</span>
+                <span>B.A. Marketing + LLB + PGD Cyber Law</span>
               </div>
             </div>
           </div>

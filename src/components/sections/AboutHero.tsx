@@ -9,20 +9,20 @@ const highlights = [
   },
   {
     icon: Award,
-    title: '5+ Years Experience',
-    description: 'Professional legal and content services',
+    title: 'Unique Background',
+    description: 'Marketing + Legal expertise',
     color: 'text-secondary-600 bg-secondary-50'
   },
   {
     icon: Globe,
-    title: 'Bilingual Expertise',
+    title: 'Bilingual Expert',
     description: 'Native Hindi, Professional English',
     color: 'text-green-600 bg-green-50'
   },
   {
     icon: Users,
-    title: 'Multi-Industry',
-    description: 'Diverse client portfolio',
+    title: 'Recent Graduate',
+    description: 'Fresh perspective, modern approach',
     color: 'text-purple-600 bg-purple-50'
   }
 ]
@@ -64,8 +64,8 @@ export default function AboutHero() {
               </h1>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                Enrolled Advocate specializing in legal services, content writing, and translation — 
-                making complex legal concepts accessible through clear communication.
+                Recent law graduate with a unique combination of marketing and legal expertise. 
+                Specializing in legal research, contract drafting, and content writing services.
               </p>
             </div>
 

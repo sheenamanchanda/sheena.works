@@ -11,16 +11,16 @@ const credentials = [
   },
   {
     title: 'Legal Education',
-    description: 'Law degree with specialization in Cyber Law',
+    description: 'Comprehensive legal education with cyber law specialization',
     icon: BookOpen,
-    details: ['LLB with honors', 'PG Diploma in Cyber Law - India Law Institute', 'Contract law specialization'],
+    details: ['LLB - Amity University (6.78 CGPA)', 'PG Diploma in Cyber Law - Indian Law Institute', 'B.A. Marketing & Advertising - Delhi University'],
     color: 'text-secondary-600 bg-secondary-50'
   },
   {
     title: 'Professional Experience',
-    description: '5+ years in legal research and content creation',
+    description: 'Legal practice and paralegal experience',
     icon: Award,
-    details: ['150+ legal documents', '500+ content pieces', 'Multi-industry experience'],
+    details: ['Paralegal role - Drafting & Research (2024)', 'Legal internships at top Delhi firms', 'Court proceedings experience'],
     color: 'text-legal-gold bg-yellow-50'
   },
   {
